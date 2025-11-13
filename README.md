@@ -23,14 +23,12 @@ Step 1: Set Up Your Hardware
 
 Step 2: Install the Software
 	•	When your Raspberry Pi starts, open the terminal.
-	•	Type these commands to update your system:
+	•	Type these commands to update your system(Bash):
 
-    #Bash
      sudo apt update && sudo apt upgrade -y
 	
-  •	Install Python and AI tools:
+  •	Install Python and AI tools(Bash):
 
-    #Bash
       sudo apt install python3-pip
       pip3 install numpy opencv-python tensorflow
 
