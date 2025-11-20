@@ -29,8 +29,15 @@ Step 2: Install the Software
 	
   •	Install Python and AI tools(Bash):
 
-      sudo apt install python3-pip
-      pip3 install numpy opencv-python tensorflow
+      sudo apt install -y python3-full python3-venv
+	  python3 -m venv ai-camera-env
+	  source ai-camera-env/bin/activate
+	  pip install numpy opencv-python tensorflow
+
+run env:
+
+	  source ai-camera-env/bin/activate
+     
 
 Step 3: Train Your AI Model
 	•	Go to: https://teachablemachine.withgoogle.com
