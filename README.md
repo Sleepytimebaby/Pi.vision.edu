@@ -81,31 +81,36 @@ Download - you'll get a zip file with model.tflite and labels.txt
 
 3. File Placement on Raspberry Pi
 
-	# Create a project directory
+ - Create a project directory
+		
 		mkdir ~/ai-camera
 		cd ~/ai-camera
 
-	# Unzip your downloaded model (assuming it's in Downloads)
+ - Unzip your downloaded model (assuming it's in Downloads)
+		
 		unzip ~/Downloads/converted_tflite.zip -d ~/ai-camera
 
-	# Your model files should now be in ~/ai-camera
-	# They might be named something like "model_unquant.tflite" or just "model.tflite"
-	# and "labels.txt"
+ Your model files should now be in ~/ai-camera
+ They might be named something like "model_unquant.tflite" or just "model.tflite" and "labels.txt"
 
 4. Create Your Python Script
 
-	# Make sure you're in your project directory
+ - Make sure you're in your project directory
+		
 		cd ~/ai-camera
 
-	# Create the Python file
+- Create the Python file
+		
 		nano camera_detect.py
 
-	# paste the coprrected code (revised.py)
+paste the coprrected code (revised.py)
 
 5. Run It From Terminal 
 
-	# Activate your virtual environment
+- Activate your virtual environment
+		
 		source ~/ai-camera-env/bin/activate
 
-	# Run the script
+- Run the script
+		
 		python camera_detect.py
